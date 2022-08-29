@@ -25,7 +25,7 @@ io.question('Choose the day (1..7 or day name): ', (day_number) => {
     // HW2: what if the user inputs a range ---> 1..3, or  'Monday'..'Tuesday'
     // hint2: use String processing
 
-    // Mo..Su
+    // Monday..Sunday
     let interval = day_number.split('..')
     
     let extractStart = interval[0]
@@ -55,7 +55,7 @@ io.question('Choose the day (1..7 or day name): ', (day_number) => {
     if (index + 1 == +day_number) {
       console.log(`[${day.date}]: ${day.temp}`)
     }
-    
+
   })
 
   io.close()
