@@ -1,37 +1,37 @@
 // Weather DATA APP
 let data_week = [
   { 
-    name: 'Mo',
+    name: 'Monday',
     date: '22-08-2022',
     temp: 30
   },
   {
-    name: 'Tu',
+    name: 'Tuesday',
     date: '23-08-2022',
     temp: 28
   },
   {
-    name: 'We',
+    name: 'Wednesday',
     date: '24-08-2022',
     temp: 31
   },
   {
-    name: 'Th',
+    name: 'Thursday',
     date: '25-08-2022',
     temp: 30
   },
   {
-    name: 'Fr',
+    name: 'Friday',
     date: '26-08-2022',
     temp: 32
   },
   {
-    name: 'Sa',
+    name: 'Saturday',
     date: '27-08-2022',
     temp: 28
   },
   {
-    name: 'Su',
+    name: 'Sunday',
     date: '28-08-2022',
     temp: 27
   }
